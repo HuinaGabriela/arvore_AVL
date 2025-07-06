@@ -9,10 +9,14 @@ O projeto foi feito com foco em:
 
 ---
 
+### 📁 Estrutura do Projeto
+
+```
 📦 Arvore_AVL
 ├── arvore_avl.py        # Código principal com a classe da árvore e testes
-├── exemplo_arvore.png   # Exemplo de visualização (opcional)
+├── exemplo_arvore.png   # Exemplo de visualização
 └── README.md            # Este arquivo de documentação
+```
 
 ---
 
