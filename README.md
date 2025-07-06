@@ -1,11 +1,18 @@
 # 🌳 Estrutura de Dados: Árvore AVL com Visualização e Desempenho
 
-Este repositório contém a implementação de uma **Árvore AVL (Adelson-Velsky and Landis)** — árvore binária de busca auto-balanceada — em Python. 
+Este repositório contém a implementação de uma **Árvore AVL (Adelson-Velsky and Landis)** — árvore binária de busca auto-balanceada — em Python.
 
 O projeto foi feito com foco em:
 - Aprendizado de estruturas de dados
 - Visualização gráfica com `matplotlib` e `networkx`
 - Medição de desempenho com `timeit`
+
+---
+
+📚 Estrutura do Projeto
+├── arvore_avl.py        # Código principal com a classe da árvore e testes
+├── exemplo_arvore.png   # Exemplo de visualização
+└── README.md            # Este arquivo
 
 ---
 
@@ -32,6 +39,19 @@ Ela garante que a altura da árvore permaneça em `O(log n)`, evitando degenera�
 ## 📸 Exemplo de Visualização
 
 ![Exemplo de árvore gerada](exemplo_arvore.png)
+
+---
+
+📊 Medição de Desempenho
+O código mede tempo de execução de:
+Inserção de 1000 valores aleatórios únicos
+Remoção de 200 valores aleatórios
+Utiliza a biblioteca timeit para precisão.
+
+--- MEDINDO DESEMPENHO ---
+Tempo de inserção de 1000 valores: 0.023234 segundos
+Tempo de remoção de 200 valores: 0.004394 segundos
+Altura final da árvore: 11
 
 ---
 
