@@ -10,10 +10,10 @@ O projeto foi feito com foco em:
 ---
 
 📚 Estrutura do Projeto
-
 ├── arvore_avl.py        # Código principal com a classe da árvore e testes
-├── exemplo_arvore.png   # Exemplo de visualização
-└── README.md            # Este arquivo
+├── exemplo_arvore.png   # Exemplo de visualização (opcional)
+└── README.md            # Este arquivo de documentação
+
 
 ---
 
@@ -35,6 +35,7 @@ A **AVL Tree** é uma árvore binária de busca que **se autoequilibra** após c
 Ela garante que a altura da árvore permaneça em `O(log n)`, evitando degeneração em lista encadeada.
 
 É uma árvore de busca com a garantia de que a diferença de altura entre as subárvores esquerda e direita de qualquer nó nunca será maior que 1. Para manter esse balanceamento, a árvore realiza **rotações** (simples e duplas) sempre que necessário após inserções ou remoções.
+
 ---
 
 ## 📸 Exemplo de Visualização
